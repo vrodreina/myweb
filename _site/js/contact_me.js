@@ -19,7 +19,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
 			var $contactForm = $('#contact-form');
-			$contactForm..submit(function(e) {
+			$contactForm.submit(function(e) {
 				e.preventDefault();
 	
 				$.ajax({
