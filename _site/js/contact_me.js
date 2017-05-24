@@ -27,7 +27,7 @@ $(function() {
                 	method: "POST",
                 	data: {
                     	name: name,
-                    	phone: phone,
+                    	// phone: phone,
                     	email: email,
                     	message: message
                 	},
@@ -44,7 +44,7 @@ $(function() {
                         .append('</div>');
 
                     	//clear all fields
-                    	$('#contactForm').trigger("reset");
+                    	$('#contact-form').trigger("reset");
                 		},
                 	error: function() {
                     	// Fail message
@@ -54,7 +54,7 @@ $(function() {
                     	$('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
                     	$('#success > .alert-danger').append('</div>');
                     	//clear all fields
-                    	$('#contactForm').trigger("reset");
+                    	$('#contact-form').trigger("reset");
                 		},
             	}),
 			}),
