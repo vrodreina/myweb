@@ -17,19 +17,15 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-			var $contactForm = $('#contact-form');
-			$contactForm.submit(function(e) {
-			e.preventDefault();
             $.ajax({
-                url: "//formspree.io/vrodreina@gmail.com",
-                method: "POST",
+                url: "././mail/contact_me.php",
+                type: "POST",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
                 },
-				dataType: "json"
                 cache: false,
                 success: function() {
                     // Success message
