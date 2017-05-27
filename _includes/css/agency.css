@@ -362,6 +362,12 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+.line-separator {
+	height:3px;
+	background:#717171;
+	border-bottom:3px solid lightgray;
+}
+
 #about {
 	padding-top: 100px;
 	/**background-color: lightgray;**/
