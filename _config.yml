@@ -4,8 +4,12 @@ baseurl: /vrodreina.github.io/
 # Site settings
 title: Victoria Reina
 email: your-email@domain.com
+<<<<<<< HEAD
 description: "Remote Web Developer based in Lethbridge, Alberta, Canada"
 
+=======
+description: "Remote freelance WordPress Developer based in Southern Alberta, Canada."
+>>>>>>> 047166aeb52ac3b045adacb64d6c0bd17c1c37be
 
 # Team names, titles and social links
 people:
