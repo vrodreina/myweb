@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+	background-image: url('{{ site.baseurl }}//img/shewomanheader.jpeg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -673,6 +673,10 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
+}
+
+#contact-subheading {
+	color:gold;
 }
 
 section#contact {
